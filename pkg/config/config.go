@@ -56,8 +56,7 @@ type LDAPConfig struct {
 
 type SplunkConfig struct {
 	Host          string
-	Username      string
-	Password      string
+	Token         string
 	AllowInsecure bool
 }
 
@@ -102,8 +101,7 @@ func init() {
 		&AppConfig.LDAPConfig.Host,
 		&AppConfig.JiraConfig.Host,
 		&AppConfig.SplunkConfig.Host,
-		&AppConfig.SplunkConfig.Username,
-		&AppConfig.SplunkConfig.Password,
+		&AppConfig.SplunkConfig.Token,
 	} {
 		_, err := url.Parse(*x)
 		if err != nil {

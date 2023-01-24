@@ -25,8 +25,7 @@ ldapconfig:
 
 splunkconfig:
   host: https://splunk.example.org:8089
-  username: <username>
-  password: <password>
+  token: <token>
   allowinsecure: false
 
 jiraconfig:

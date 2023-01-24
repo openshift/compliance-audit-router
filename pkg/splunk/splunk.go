@@ -95,11 +95,8 @@ func RetrieveSearchFromAlert(sid string) (Alert, error) {
 		return alert, err
 	}
 
-	// REALLY, Splunk?
-	req.SetBasicAuth(
-		config.AppConfig.SplunkConfig.Username,
-		config.AppConfig.SplunkConfig.Password,
-	)
+	bearerToken := "Bearer" + config.AppConfig.SplunkConfig.Token
+	req.Header.Add("Authorization", bearerToken)
 
 	resp, err := splunkHttpClient.Do(req)
 	if err != nil {
