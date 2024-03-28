@@ -250,7 +250,7 @@ func ProcessAlertHandler(w http.ResponseWriter, r *http.Request) {
 		}
 
 		// Create a Jira issue for the compliance event
-		jiraCreateErr := jira.CreateTicket(jiraClient.User, jiraClient.Issue, user, manager, complianceEvent.AlertName)
+		jiraCreateErr := jira.CreateTicket(jiraClient.User, jiraClient.Issue, user, manager, complianceEvent.Body())
 		if jiraCreateErr != nil {
 			log.Printf("failed creating Jira ticket: %s", jiraCreateErr.Error())
 			metrics.MetricJiraIssueCreateFailures.With(p.LabelInput()).Inc()
