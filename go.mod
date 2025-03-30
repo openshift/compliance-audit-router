@@ -1,8 +1,8 @@
 module github.com/openshift/compliance-audit-router
 
-go 1.21
+go 1.23
 
-toolchain go1.22.1
+toolchain go1.23.7
 
 require (
 	github.com/andygrunwald/go-jira v1.16.0
@@ -30,7 +30,7 @@ require (
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.53.0 // indirect
 	github.com/prometheus/procfs v0.14.0 // indirect
-	github.com/rogpeppe/go-internal v1.11.0 // indirect
+	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/sagikazarmark/locafero v0.4.0 // indirect
 	github.com/sagikazarmark/slog-shim v0.1.0 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
@@ -40,7 +40,7 @@ require (
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/trivago/tgo v1.0.7 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
