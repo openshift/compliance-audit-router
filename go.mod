@@ -1,8 +1,8 @@
 module github.com/openshift/compliance-audit-router
 
-go 1.21
+go 1.21.0
 
-toolchain go1.22.1
+toolchain go1.22.9
 
 require (
 	github.com/andygrunwald/go-jira v1.16.0
@@ -25,7 +25,7 @@ require (
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
-	github.com/pelletier/go-toml/v2 v2.2.1 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.53.0 // indirect
