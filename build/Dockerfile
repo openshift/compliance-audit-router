@@ -3,7 +3,7 @@ ARG PROJECT_DESCRIPTION="A daemon processing incoming SEIM alerts into cards in 
 ARG BUILDER_IMAGE=registry.ci.openshift.org/openshift/release:golang-1.21
 
 # BASE_IMAGE must be declared before the first FROM to be accesible in later build stages (eg: to use in second FROM)
-ARG BASE_IMAGE=quay.io/app-sre/ubi9-ubi-minimal:9.3
+ARG BASE_IMAGE=quay.io/app-sre/ubi9-ubi-minimal:9.6
 ARG WORKDIR="/go/src/github.com/openshift/${PROJECT}"
 
 # BUILDER IMAGE
