@@ -1,8 +1,8 @@
 module github.com/openshift/compliance-audit-router
 
-go 1.21
+go 1.21.0
 
-toolchain go1.22.1
+toolchain go1.24.6
 
 require (
 	github.com/andygrunwald/go-jira v1.16.0
@@ -35,7 +35,7 @@ require (
 	github.com/sagikazarmark/slog-shim v0.1.0 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
-	github.com/spf13/cast v1.6.0 // indirect
+	github.com/spf13/cast v1.10.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/trivago/tgo v1.0.7 // indirect
