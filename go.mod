@@ -7,7 +7,7 @@ toolchain go1.22.1
 require (
 	github.com/andygrunwald/go-jira v1.16.0
 	github.com/go-chi/chi/v5 v5.0.12
-	github.com/go-ldap/ldap v3.0.3+incompatible
+	github.com/go-ldap/ldap v3.4.12+incompatible
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
 	github.com/google/uuid v1.6.0
 	github.com/prometheus/client_golang v1.19.0
