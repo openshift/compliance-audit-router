@@ -1,8 +1,8 @@
 module github.com/openshift/compliance-audit-router
 
-go 1.21
+go 1.23
 
-toolchain go1.22.1
+toolchain go1.24.6
 
 require (
 	github.com/andygrunwald/go-jira v1.16.0
@@ -42,7 +42,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/sys v0.19.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	google.golang.org/protobuf v1.33.0 // indirect
+	google.golang.org/protobuf v1.36.10 // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
