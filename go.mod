@@ -2,7 +2,7 @@ module github.com/openshift/compliance-audit-router
 
 go 1.21
 
-toolchain go1.22.1
+toolchain go1.25.2
 
 require (
 	github.com/andygrunwald/go-jira v1.16.0
