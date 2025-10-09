@@ -1,8 +1,8 @@
 module github.com/openshift/compliance-audit-router
 
-go 1.21
+go 1.24.0
 
-toolchain go1.22.1
+toolchain go1.24.6
 
 require (
 	github.com/andygrunwald/go-jira v1.16.0
@@ -12,7 +12,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/prometheus/client_golang v1.19.0
 	github.com/spf13/viper v1.18.2
-	golang.org/x/exp v0.0.0-20240416160154-fe59bbe5cc7f
+	golang.org/x/exp v0.0.0-20251009144603-d2f985daa21b
 )
 
 require (
